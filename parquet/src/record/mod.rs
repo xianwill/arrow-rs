@@ -23,6 +23,6 @@ mod record_writer;
 mod triplet;
 
 pub use self::{
-    api::{Field, List, ListAccessor, Map, MapAccessor, Row, RowAccessor},
+    api::{make_row, Field, List, ListAccessor, Map, MapAccessor, Row, RowAccessor},
     record_writer::RecordWriter,
 };
